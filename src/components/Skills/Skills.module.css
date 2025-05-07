@@ -1,0 +1,20 @@
+.h2Skills {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  padding-bottom: 48px;
+}
+.spanSkills {
+  color: #c778dd;
+}
+.h2Skills::after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 2px;
+  background-color: #c778dd;
+  margin-left: 20px;
+  vertical-align: middle;
+}

@@ -1,0 +1,37 @@
+/* Styles for Mobile devices */
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-bottom: 62px;
+}
+.divHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ulHeader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.spanHeader {
+  color: #c778dd;
+}
+.aHeader {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.aHeader:hover,
+.aHeader:focus {
+  color: #c778dd;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+}

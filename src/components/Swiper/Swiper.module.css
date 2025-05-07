@@ -1,0 +1,70 @@
+.divSwiper {
+  border: 1px solid #abb2bf;
+  width: 330px;
+}
+.swiperContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+.swiperSlide {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0 auto;
+}
+.pSwiper {
+  border-bottom: 1px solid #abb2bf;
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+  padding: 8px;
+}
+.pSwiper2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+  padding: 0 16px 0;
+}
+.h3Swiper {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  padding: 16px;
+}
+.divSwiper3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+.aSwiper {
+  font-weight: 500;
+  font-size: 16px;
+  color: #abb2bf;
+  border: 1px solid #c778dd;
+  padding: 8px 16px;
+  width: 109px;
+}
+.aSwiper:focus,
+.aSwiper:hover {
+  transition: all 0.3s ease;
+  color: #c778dd;
+}
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+:global(.swiper-button-next:hover),
+:global(.swiper-button-prev:hover) {
+  color: #c778dd;
+}
+
+:global(.swiper-pagination-bullet) {
+  background-color: #fff;
+  opacity: 1;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background-color: #c778dd;
+}

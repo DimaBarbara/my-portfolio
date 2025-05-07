@@ -1,0 +1,123 @@
+/* Styles for Mobile devices */
+.hero {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 62px;
+}
+.mainDivHero {
+  display: flex;
+  align-items: center;
+  padding-bottom: 112px;
+}
+.spanHero {
+  color: #c778dd;
+}
+.h1Hero {
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 32px;
+}
+.pHero {
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+  padding-bottom: 24px;
+}
+.buttonHero {
+  border: 1px solid #c778dd;
+  padding: 8px 16px;
+  width: 148px;
+  height: 37px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+}
+.buttonHero:focus,
+.buttonHero:hover {
+  transition: all 0.3s ease;
+  color: #c778dd;
+}
+.h2Hero {
+  font-family: "Fira Code", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #abb2bf;
+  padding: 32px;
+  width: 712px;
+}
+.h2Hero2 {
+  font-family: "Fira Code", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #abb2bf;
+  padding: 16px;
+  border-top: none;
+}
+.imgBlock {
+  position: relative;
+  width: fit-content;
+}
+.imgMe {
+  position: relative;
+  z-index: 2;
+}
+.imgDots {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  z-index: 3;
+  opacity: 0.9;
+}
+.imgLogo {
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  opacity: 0.9;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  position: relative;
+  width: fit-content;
+}
+.imgFrame1,
+.imgFrame2 {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.imgFrame1 {
+  left: 60px;
+  top: -12px;
+}
+.imgFrame2 {
+  left: 650px;
+  top: 85px;
+}
+.imgRectangle {
+  position: absolute;
+  top: 100;
+  right: 0;
+}
+.imgDots2 {
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+}
