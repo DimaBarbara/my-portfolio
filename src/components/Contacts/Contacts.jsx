@@ -36,7 +36,7 @@ const Contacts = () => {
 
             <a
               className={s.icons}
-              href="www.linkedin.com/in/dmytro-barbara"
+              href="https://www.linkedin.com/in/dmytro-barbara/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +52,7 @@ const Contacts = () => {
               <Icon id="Github" />
             </a>
 
-            <a className={s.icons} href="mailto:dmytronarnara1@gmail.com">
+            <a className={s.icons} href="mailto:dmytrobarbara1@gmail.com">
               <Icon id="Email" />
             </a>
           </div>
