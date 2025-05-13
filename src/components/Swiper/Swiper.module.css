@@ -68,3 +68,9 @@
 :global(.swiper-pagination-bullet-active) {
   background-color: #c778dd;
 }
+:global(.swiper-pagination) {
+  margin-top: 20px;
+}
+:global(.swiper) {
+  padding-bottom: 40px;
+}

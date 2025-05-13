@@ -1,0 +1,47 @@
+.h2AboutMe {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  padding-bottom: 48px;
+}
+.spanAboutMe {
+  color: #c778dd;
+}
+.h2AboutMe::after {
+  content: "";
+  display: inline-block;
+  width: 500px;
+  height: 2px;
+  background-color: #c778dd;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.AboutMe {
+  padding-bottom: 112px;
+}
+.divAboutMe {
+  display: flex;
+  align-items: center;
+}
+.imgAboutMe {
+  width: 350px;
+  border: 1px solid #abb2bf;
+}
+.imgRectangle {
+  position: absolute;
+  top: 2000px;
+  right: 0;
+}
+.imgDots2 {
+  position: absolute;
+  left: 0;
+  top: 2500px;
+}
+.pAboutMe {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #abb2bf;
+}

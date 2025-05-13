@@ -15,7 +15,9 @@ const Hero = () => {
             I love creating responsive websites where technology meets
             creativity.
           </p>
-          <button className={s.buttonHero}>Contact me!</button>
+          <a href="#contacts">
+            <button className={s.buttonHero}>Contact me!</button>
+          </a>
         </div>
         <div className={s.imgBlock}>
           <img

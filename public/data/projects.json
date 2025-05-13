@@ -3,7 +3,7 @@
     "title": "CV-APP",
     "image": "../img/projects/cv.png",
     "stack": ["React.js", "HTML5", "CSS"],
-    "description": "A resume builder app with dynamic forms, real-time preview, and PDF generation. Practiced component reuse, form validation, and state management.",
+    "description": "A resume builder app with dynamic forms, real-time preview, and PDF generation.",
     "github": "https://github.com/DimaBarbara/CV-APP",
     "live": "https://cv-app-psi-ivory.vercel.app/"
   },
@@ -11,7 +11,7 @@
     "title": "FlappyBird",
     "image": "../img/projects/flappyBird.png",
     "stack": ["JavaScript", "HTML5", "CSS"],
-    "description": "Flappy Bird clone built using <canvas>. Practiced collision detection, animation, and performance optimization.",
+    "description": "Flappy Bird clone built using <canvas>.",
     "github": "https://github.com/DimaBarbara/flappyBird",
     "live": "https://flappy-bird-delta-one.vercel.app/"
   },
@@ -19,15 +19,15 @@
     "title": "Counter",
     "image": "../img/projects/counter.png",
     "stack": ["React.js"],
-    "description": "A simple counter app with increment, decrement, and reset. Used React hooks for state control.",
+    "description": "A simple counter app with increment, decrement, and reset.",
     "github": "https://github.com/DimaBarbara/counter",
     "live": "https://counter-ivory-five.vercel.app/"
   },
   {
     "title": "Portfolio Website",
     "image": "../img/projects/portfolio.png",
-    "stack": ["JavaScript", "HTML5", "CSS", "Figma", "Node.js"],
-    "description": "A personal portfolio with project sections, client testimonials, and contact form. Designed for presenting professional experience.",
+    "stack": ["JavaScript", "HTML5", "CSS", "Figma"],
+    "description": "A personal portfolio with project sections, client testimonials, and contact form.",
     "github": "https://github.com/DimaBarbara/project-WebGuru",
     "live": "https://dimabarbara.github.io/project-WebGuru/"
   },
@@ -35,7 +35,7 @@
     "title": "GIFS-APP",
     "image": "../img/projects/gifs.png",
     "stack": ["React.js", "Redux.js", "HTML5", "CSS", "REST API"],
-    "description": "GIF search app using GIPHY API. Implemented dynamic routing, trending/random GIFs, and async data handling.",
+    "description": "GIF search app using GIPHY API.",
     "github": "https://github.com/DimaBarbara/Gifs-App",
     "live": "https://gifs-app-sepia.vercel.app/"
   },
@@ -43,7 +43,7 @@
     "title": "Gallery",
     "image": "../img/projects/gallery.png",
     "stack": ["JavaScript", "HTML5", "CSS", "Node.js", "REST API"],
-    "description": "Image gallery using Pixabay API and SimpleLightbox. Features dynamic loading, pagination, and modal display.",
+    "description": "Image gallery using Pixabay API and SimpleLightbox.",
     "github": "https://github.com/DimaBarbara/goit-js-hw-12",
     "live": "https://dimabarbara.github.io/goit-js-hw-12/"
   },
@@ -51,7 +51,7 @@
     "title": "Website (HTML/CSS)",
     "image": "../img/projects/watcharm.png",
     "stack": ["HTML5", "CSS", "Figma", "GitHub"],
-    "description": "Responsive static website with semantic HTML and adaptive design, built with focus on clean structure and web standards.",
+    "description": "Responsive static website with semantic HTML and adaptive design.",
     "github": "https://github.com/DimaBarbara/goit-markup-hw-06",
     "live": "https://hlibnikitin.github.io/project-WebGuru/"
   }

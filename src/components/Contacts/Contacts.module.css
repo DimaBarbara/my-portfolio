@@ -1,0 +1,99 @@
+.h2Contacts {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+  padding-bottom: 48px;
+}
+.contacts {
+  padding-bottom: 60px;
+}
+.spanContacts {
+  color: #c778dd;
+}
+.h2Contacts::after {
+  content: "";
+  display: inline-block;
+  width: 200px;
+  height: 2px;
+  background-color: #c778dd;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.imgRectangle {
+  position: absolute;
+  top: 2800px;
+  left: 0;
+  transform: scaleX(-1);
+}
+.imgDots2 {
+  position: absolute;
+  right: 0;
+  top: 3000px;
+}
+.inputContacts {
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+  border: 1px solid #abb2bf;
+  padding: 8px;
+  background-color: transparent;
+}
+.inputContacts:focus,
+.inputContacts:hover {
+  border: 1px solid #c778dd;
+  transition: all 0.3s ease;
+}
+.form {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.divContacts {
+  display: flex;
+  justify-content: space-between;
+}
+.pContacts {
+  font-weight: 500;
+  font-size: 16px;
+  color: #abb2bf;
+  width: 50%;
+}
+.buttonContacts {
+  border: 1px solid #c778dd;
+  padding: 8px 16px;
+  width: 71px;
+  height: 37px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+.buttonContacts:focus,
+.buttonContacts:hover {
+  transition: all 0.3s ease;
+  color: #c778dd;
+}
+.inputContacts:-webkit-autofill,
+.inputContacts:-webkit-autofill:hover,
+.inputContacts:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px transparent !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+.divIcon {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+.divContacts2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

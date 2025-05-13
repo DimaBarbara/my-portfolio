@@ -4,6 +4,9 @@
   font-size: 16px;
   background-color: #282c33;
 }
+html {
+  scroll-behavior: smooth;
+}
 *,
 *::before,
 *::after {

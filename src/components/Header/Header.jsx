@@ -25,12 +25,12 @@ const Header = () => {
             </a>
           </li>
           <li className={s.liHeader}>
-            <a className={s.aHeader} href="">
+            <a className={s.aHeader} href="#about-me">
               <span className={s.spanHeader}>#</span>about-me
             </a>
           </li>
           <li className={s.liHeader}>
-            <a className={s.aHeader} href="">
+            <a className={s.aHeader} href="#contacts">
               <span className={s.spanHeader}>#</span>contacts
             </a>
           </li>

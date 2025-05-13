@@ -18,3 +18,34 @@
   margin-left: 20px;
   vertical-align: middle;
 }
+.liSkills {
+  border: 1px solid #abb2bf;
+  width: 178px;
+  height: 103px;
+}
+.h3Skills {
+  border-bottom: 1px solid #abb2bf;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.skillsDiv {
+  display: flex;
+  gap: 60px;
+}
+.ulSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-end;
+}
+.pSkills {
+  padding: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #abb2bf;
+}
+.skills {
+  padding-bottom: 112px;
+}
